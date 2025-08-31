@@ -1,7 +1,19 @@
-import {routing} from '@/i18n/routing';
-import {redirect} from 'next/navigation';
+import HomeHero from "@/features/home/home-hero";
+import HomeAbout from "@/features/home/home-about";
+import HomeMission from "@/features/home/home-mission";
+import HomeJewelry from "@/features/home/home-jewelry";
+import StickyNavigation from "@/components/sticky-navigation";
+import Footer from "@/components/footer";
 
-// This page only renders when the app is built statically (output: 'export')
-export default function RootPage() {
-  redirect(`/${routing.defaultLocale}`);
+export default function Home() {
+  return (
+    <div>
+      <StickyNavigation />
+      <HomeHero />
+      <HomeAbout />
+      <HomeMission />
+      <HomeJewelry />
+      <Footer />
+    </div>
+  );
 }
