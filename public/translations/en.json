@@ -1,0 +1,31 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "services": "Services"
+  },
+  "home": {
+    "title": "Welcome to Sailor Piercing",
+    "subtitle": "Professional piercing services with expertise and care",
+    "description": "Discover our wide range of professional piercing services. We prioritize safety, hygiene, and artistic excellence.",
+    "cta": "Book Appointment",
+    "learn_more": "Learn More"
+  },
+  "common": {
+    "language": "Language",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "contact_info": "Contact Information",
+    "follow_us": "Follow Us"
+  }
+}

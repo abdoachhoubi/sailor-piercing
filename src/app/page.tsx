@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HomeHero from "@/features/home/home-hero";
 import HomeAbout from "@/features/home/home-about";
 import HomeMission from "@/features/home/home-mission";
